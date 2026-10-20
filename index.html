@@ -99,11 +99,6 @@ section{padding:28px 0 8px}
 .inset ul{margin:6px 0 0;padding-left:1.1em;font-size:.88rem}
 .ov-art{display:block;width:100%;height:auto;border-bottom:2px solid var(--ink);border-radius:12px 12px 0 0;background:#DDEFEF}
 .ov-body{padding:12px 14px 14px}
-.ov-strip{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px 4px;align-items:center}
-.ov-strip li{display:flex;align-items:center;gap:4px;font-size:.84rem;font-weight:700}
-.ov-strip .lt{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--coral);color:#fff;font-size:.78rem}
-.ov-strip .lt.hk{background:var(--teal)}
-.ov-strip .to{color:#A0A9AF;font-weight:400}
 .ov-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
 .ov-grid div{background:var(--cream);border:1px solid var(--line);border-radius:10px;padding:8px;text-align:center}
 .ov-grid b{display:block;font-family:var(--serif);font-size:1.2rem;color:var(--teal)}
@@ -114,15 +109,7 @@ section{padding:28px 0 8px}
 .legend li{display:flex;align-items:center;gap:6px}
 .legend svg{width:34px;height:12px;flex:none}
 .mapgrid{display:grid;gap:18px}
-@media(min-width:900px){.mapgrid{grid-template-columns:1.05fr 1fr;align-items:start}}
-.how{list-style:none;margin:0;padding:6px 14px 14px}
-.how li{display:grid;grid-template-columns:30px 1fr;gap:4px 10px;padding:10px 0;border-bottom:1px dashed var(--line)}
-.how li:last-child{border-bottom:0}
-.how .lt{width:28px;height:28px;border-radius:50%;background:var(--coral);color:#fff;font-weight:800;display:grid;place-items:center;font-size:.9rem;border:2px solid var(--ink)}
-.how .lt.hk{background:var(--teal)}
-.how h3{font-family:var(--sans);font-size:.98rem}
-.how p{margin:3px 0 0;font-size:.87rem}
-.how .ride{margin:4px 0 0}
+.mapgrid{max-width:560px;margin:0 auto}
 .prac{list-style:none;margin:0;padding:0;display:grid;gap:10px}
 .prac>li{display:grid;grid-template-columns:52px 1fr;gap:10px;background:#fff;border:1.5px solid #DCCBB2;border-radius:12px;padding:10px 12px}
 .prac .when{font-weight:800;color:var(--teal);font-variant-numeric:tabular-nums;font-size:.92rem;line-height:1.3}
@@ -441,9 +428,9 @@ footer svg{width:180px;height:auto;display:block;margin:0 auto 6px}
     <use href="#s-tree" x="70" y="178" width="26" height="32"/><use href="#s-tree" x="304" y="178" width="26" height="32"/>
     <g fill="#33475B"><circle cx="128" cy="214" r="3"/><path d="M125 218h6l1 12h-8z"/><circle cx="262" cy="216" r="3"/><path d="M259 220h6l1 12h-8z" fill="#E8664A"/><circle cx="150" cy="222" r="2.6"/><path d="M147.5 225.5h5l1 10h-7z" fill="#2A9D8F"/></g>
     <rect x="268" y="224" width="7" height="8" rx="1" fill="#F5B63F"/>
-    <g transform="translate(14 14)"><rect width="118" height="24" rx="12" fill="#fff" stroke="#1E2A36" stroke-width="1.5"/><text x="59" y="16.5" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E2A36" font-family="Noto Sans CJK TC,sans-serif">會展中心站 B 出口</text></g>
+    <g transform="translate(14 14)"><rect width="82" height="24" rx="12" fill="#fff" stroke="#1E2A36" stroke-width="1.5"/><text x="41" y="16.5" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E2A36" font-family="Noto Sans CJK TC,sans-serif">福田中心區</text></g>
    </svg>
-   <figcaption><h3>領展中心城 <span class="pill">13:15 食晏</span></h3><p>福田中心區大型商場，就喺會展中心站 B 出口，抬頭就見平安金融中心。食肆選擇多，慢慢揀。</p></figcaption>
+   <figcaption><h3>領展中心城 <span class="pill">13:15 食晏</span></h3><p>福田中心區大型商場，抬頭就見平安金融中心，食肆選擇多。</p></figcaption>
   </figure>
 
   <figure class="card inset">
@@ -469,11 +456,8 @@ footer svg{width:180px;height:auto;display:block;margin:0 auto 6px}
     <path d="M0 224h400v26H0z" fill="#E9DFCF"/><path d="M0 224h400v26H0z" fill="url(#p-grain)"/>
     <use href="#s-tree" x="0" y="166" width="42" height="58"/><use href="#s-tree" x="360" y="166" width="42" height="58"/>
     <g fill="#33475B"><circle cx="178" cy="209" r="2.6"/><path d="M175.5 212.5h5l1 10h-7z" fill="#9950B2"/><circle cx="192" cy="211" r="2.6"/><path d="M189.5 214.5h5l1 9h-7z"/></g>
-    <g transform="translate(14 14)"><rect width="98" height="24" rx="12" fill="#fff" stroke="#1E2A36" stroke-width="1.5"/><text x="49" y="16.5" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E2A36" font-family="Noto Sans CJK TC,sans-serif">免費・唔使預約</text></g>
    </svg>
-   <figcaption><h3>關山月美術館 <span class="pill">14:25 睇展</span></h3>
-    <ul><li>《雲水之間——李偉銘畫展》展到 10月25日</li><li>《別開新徑——春睡同人藝術研究展》長期展</li></ul>
-    <p class="kv">09:00–17:00（16:30 停止入場）・ 星期一休館，21/10 星期三照開</p></figcaption>
+   <figcaption><h3>關山月美術館 <span class="pill">14:25 睇展</span></h3><p>21/10 係星期三，照常開放。</p></figcaption>
   </figure>
 
   <figure class="card inset">
@@ -518,7 +502,7 @@ footer svg{width:180px;height:auto;display:block;margin:0 auto 6px}
     <g fill="#33475B"><circle cx="176" cy="210" r="2.6"/><path d="M173.5 213.5h5l1 10h-7z" fill="#E8664A"/></g>
     <g transform="translate(250 216)"><rect width="140" height="24" rx="12" fill="#fff" stroke="#1E2A36" stroke-width="1.5"/><text x="70" y="16.5" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E2A36" font-family="Noto Sans CJK TC,sans-serif">山頂廣場・望福田 CBD</text></g>
    </svg>
-   <figcaption><h3>蓮花山公園 <span class="pill">15:55 行山</span></h3><p>由南門入，行上山頂廣場見到鄧小平銅像，回頭就係成片福田 CBD 天際線、平安金融中心同市民中心大屋頂。草地上成日有人放風箏。</p></figcaption>
+   <figcaption><h3>蓮花山公園 <span class="pill">15:55 行山</span></h3><p>行上山頂廣場見到鄧小平銅像，回頭就係成片福田 CBD 天際線、平安金融中心同市民中心大屋頂。草地上成日有人放風箏。</p></figcaption>
   </figure>
 
   <figure class="card inset">
@@ -534,7 +518,7 @@ footer svg{width:180px;height:auto;display:block;margin:0 auto 6px}
      <rect x="290" y="132" width="48" height="18" rx="2" fill="#2A9D8F"/><text x="314" y="145" text-anchor="middle" font-size="10" font-weight="800" fill="#fff" font-family="Noto Sans CJK TC,sans-serif">糖水</text>
      <rect x="0" y="160" width="400" height="30" fill="#2C2547" opacity=".5"/>
      <g fill="#FFC970" opacity=".55"><rect x="8" y="164" width="54" height="22"/><rect x="150" y="164" width="50" height="22"/><rect x="292" y="164" width="44" height="22"/></g>
-     <g transform="translate(222 120)"><rect width="52" height="34" rx="4" fill="#fff"/><rect width="52" height="12" rx="4" fill="#9950B2"/><rect y="8" width="52" height="4" fill="#9950B2"/><text x="26" y="9.5" text-anchor="middle" font-size="8" font-weight="800" fill="#fff" font-family="sans-serif">5</text><text x="26" y="27" text-anchor="middle" font-size="11" font-weight="800" fill="#33475B" font-family="Noto Sans CJK TC,sans-serif">長龍 C2</text></g>
+     <g transform="translate(222 120)"><rect width="52" height="34" rx="4" fill="#fff"/><rect width="52" height="12" rx="4" fill="#9950B2"/><rect y="8" width="52" height="4" fill="#9950B2"/><text x="26" y="9.5" text-anchor="middle" font-size="8" font-weight="800" fill="#fff" font-family="sans-serif">5</text><text x="26" y="27" text-anchor="middle" font-size="11" font-weight="800" fill="#33475B" font-family="Noto Sans CJK TC,sans-serif">長龍</text></g>
     </g>
     <path d="M0 40C100 70 300 70 400 40" stroke="#2E2440" stroke-width="1.2" fill="none"/>
     <g fill="#E8473A"><ellipse cx="50" cy="56" rx="7" ry="9"/><ellipse cx="120" cy="66" rx="7" ry="9"/><ellipse cx="200" cy="69" rx="7" ry="9"/><ellipse cx="280" cy="66" rx="7" ry="9"/><ellipse cx="350" cy="56" rx="7" ry="9"/></g>
@@ -551,9 +535,8 @@ footer svg{width:180px;height:auto;display:block;margin:0 auto 6px}
     <ellipse cx="62" cy="226" rx="26" ry="9" fill="#F4F1EA"/><ellipse cx="62" cy="223" rx="22" ry="6" fill="#E9E4D8"/><path d="M40 240l46-26M45 242l46-26" stroke="#D9A45B" stroke-width="2.2" stroke-linecap="round"/>
     <g transform="translate(320 184)"><path d="M0 0h22l-2 40H2z" fill="#F5B63F" opacity=".95"/><path d="M-1-6c4-5 20-5 24 0v6H-1z" fill="#FFF8E8"/><path d="M5 6v28" stroke="#FFE7A0" stroke-width="2" opacity=".8"/><path d="M22 8h5a4 4 0 0 1 0 14h-5" stroke="#F5D58A" stroke-width="2.5" fill="none"/></g>
     <g transform="translate(356 190)"><path d="M0 0h18l-2 34H2z" fill="#F5B63F" opacity=".9"/><path d="M-1-5c3-4 17-4 20 0v5H-1z" fill="#FFF8E8"/></g>
-    <g transform="translate(14 14)"><rect width="78" height="24" rx="12" fill="#fff" stroke="#1E2A36" stroke-width="1.5"/><text x="39" y="16.5" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E2A36" font-family="Noto Sans CJK TC,sans-serif">餐廳待定</text></g>
    </svg>
-   <figcaption><h3>長龍晚飯 <span class="pill">18:00 晚飯</span></h3><p>17:45 喺長龍站 C2 出口（吉華路南側）等齊人，18:00–20:30 喺附近食晚飯（餐廳待定），之後自由活動，21:00 返到長龍站。</p></figcaption>
+   <figcaption><h3>長龍晚飯 <span class="pill">18:00 晚飯</span></h3></figcaption>
   </figure>
  </div>
 </section>
@@ -594,24 +577,13 @@ footer svg{width:180px;height:auto;display:block;margin:0 auto 6px}
    <path id="ov-road" d="M-90 158H330C370 158 392 212 450 210C560 202 700 203 900 206" fill="none"/><g><g class="bob"><use href="#s-bus" x="-36" y="-40" width="72" height="42"/></g><animateMotion dur="12s" repeatCount="indefinite"><mpath href="#ov-road"/></animateMotion></g>
   </svg>
   <div class="ov-body">
-   <p style="margin:0">去程坐 B10 由青衣直上新皇崗口岸，一次過關落地鐵；下晝喺福田中心區食、睇、行，三個點都喺 4 號線沿線；傍晚坐 3 號線、5 號線去長龍食晚飯，夜晚 5 號線轉 7 號線返口岸，再坐 B10 回青衣。</p>
-   <ol class="ov-strip" aria-label="地點次序">
-    <li><span class="lt hk">A</span>青衣</li><li class="to">→</li>
-    <li><span class="lt">B</span>皇崗口岸</li><li class="to">→</li>
-    <li><span class="lt">C</span>領展中心城</li><li class="to">→</li>
-    <li><span class="lt">D</span>關山月</li><li class="to">→</li>
-    <li><span class="lt">E</span>蓮花山</li><li class="to">→</li>
-    <li><span class="lt">F</span>長龍</li><li class="to">→</li>
-    <li><span class="lt">B</span></li><li class="to">→</li>
-    <li><span class="lt hk">A</span></li>
-   </ol>
-   <div class="ov-grid"><div><b>6</b><span>個地點</span></div><div><b>2</b><span>程 B10</span></div><div><b>4</b><span>條地鐵線</span></div></div>
+   <div class="ov-grid" style="margin-top:0"><div><b>6</b><span>個地點</span></div><div><b>2</b><span>程 B10</span></div><div><b>4</b><span>條地鐵線</span></div></div>
   </div>
  </div>
 </section>
 
 <section aria-labelledby="h-map">
- <div class="sec-h"><span class="n">4</span><div><h2 id="h-map">路線圖・交通方法</h2></div></div>
+ <div class="sec-h"><span class="n">4</span><div><h2 id="h-map">路線圖</h2></div></div>
  <div class="mapgrid">
  <div class="card mapcard">
   <svg class="map" viewBox="0 0 400 500" role="img" aria-label="路線圖：A 青衣經 B10 巴士去 B 皇崗口岸，再坐地鐵去 C 會展中心、D 少年宮、E 蓮花山、F 長龍，之後返 B 同 A">
@@ -679,28 +651,12 @@ footer svg{width:180px;height:auto;display:block;margin:0 auto 6px}
   </ul>
   <p style="margin:0;padding:8px 14px 12px;font-size:.74rem;color:var(--stone)">示意圖，唔按比例。</p>
  </div>
-
- <div class="card">
-  <ol class="how">
-   <li><span class="lt hk">A</span><div><h3>青衣站巴士總站 → 新皇崗口岸</h3><div class="ride"><span class="chip bus"><svg><use href="#i-bus"/></svg>九巴 B10</span>約 40–50 分鐘・$12.1</div><p>青衣城旁邊上車，喺口岸 L2 落車。</p></div></li>
-   <li><span class="lt">B</span><div><h3>新皇崗口岸 → 會展中心（領展中心城）</h3><div class="ride"><span class="chip l7"><b>7</b>7號線</span>1 站到福民 <span class="ar">→</span> <span class="chip l4"><b>4</b>4號線</span>1 站</div><p>L5 入境大堂過關，搭𨋢落 B2 入地鐵站；會展中心站 B 出口。</p></div></li>
-   <li><span class="lt">C</span><div><h3>領展中心城 → 關山月美術館</h3><div class="ride"><span class="chip l4"><b>4</b>4號線</span>會展中心 → 少年宮，2 站</div><p>F2 出口，行約 5 分鐘（約 370 米）。</p></div></li>
-   <li><span class="lt">D</span><div><h3>關山月美術館 → 蓮花山公園</h3><div class="ride"><span class="chip walk"><svg><use href="#i-walk"/></svg>步行</span>約 5–7 分鐘</div><p>由南門入公園。</p></div></li>
-   <li><span class="lt">E</span><div><h3>蓮花山公園 → 長龍站</h3><div class="ride"><span class="chip walk"><svg><use href="#i-walk"/></svg>行返少年宮站</span><span class="chip l3"><b>3</b>3號線</span>到布吉 <span class="ar">→</span> <span class="chip l5"><b>5</b>5號線</span>1 站</div><p>行返少年宮站約 10 分鐘；全程約 40–50 分鐘。</p></div></li>
-   <li><span class="lt">F</span><div><h3>長龍站 → 新皇崗口岸</h3><div class="ride"><span class="chip l5"><b>5</b>5號線</span>4 站到太安 <span class="ar">→</span> <span class="chip l7"><b>7</b>7號線</span>到皇崗口岸</div><p>約 45–50 分鐘，經 A 出口入聯檢大樓。</p></div></li>
-   <li><span class="lt">B</span><div><h3>新皇崗口岸 → 青衣（A）</h3><div class="ride"><span class="chip bus"><svg><use href="#i-bus"/></svg>九巴 B10</span>$12.1・尾班 00:30</div><p>L4 出境大堂過關，落 L2 港方交通交匯處上車，返到青衣站巴士總站。</p></div></li>
-  </ol>
- </div>
  </div>
 </section>
 
 <section aria-labelledby="h-prac">
- <div class="sec-h"><span class="n">5</span><div><h2 id="h-prac">實用資料</h2><p>按時間排</p></div></div>
+ <div class="sec-h"><span class="n">5</span><div><h2 id="h-prac">實用資料</h2><p>夜晚返程尾班車</p></div></div>
  <ul class="prac">
-  <li><span class="when">11:30</span><div><h3>九巴 B10（去程）</h3><p>青衣站巴士總站 → 皇崗口岸，車費 <span class="big-n">$12.1</span>（八達通／電子支付），約 15–20 分鐘一班，車程約 40–50 分鐘。</p></div></li>
-  <li><span class="when">12:20</span><div><h3>新皇崗口岸</h3><p><b>24 小時通關</b>，「合作查驗、一次放行」。入境：L2 落車 → L5 入境大堂 → B2 地鐵站。出境：L4 出境大堂 → L2 港方交通交匯處。</p></div></li>
-  <li><span class="when">12:50</span><div><h3>深圳地鐵</h3><p>用支付寶／微信嘅乘車碼入閘。今日會搭：</p><div class="ride"><span class="chip l7"><b>7</b>7號線</span><span class="chip l4"><b>4</b>4號線</span><span class="chip l3"><b>3</b>3號線</span><span class="chip l5"><b>5</b>5號線</span></div></div></li>
-  <li><span class="when">14:25</span><div><h3>關山月美術館</h3><p>09:00–17:00，<b>16:30 停止入場</b>，<b>逢星期一休館</b>（21/10 係星期三，照開）。免費入場，唔使預約。福田區紅荔路6026號。</p></div></li>
   <li><span class="when">21:00</span><div><h3>尾班地鐵（平日）</h3>
    <table>
     <tr><td>長龍站 5號線（往太安方向）</td><td>00:04</td></tr>
@@ -709,7 +665,6 @@ footer svg{width:180px;height:auto;display:block;margin:0 auto 6px}
    </table>
    <p class="note ok">太安轉 7 號線嗰程最早收車（23:00 尾班），按行程 21:00 由長龍出發好充裕。</p>
    <p class="kv" style="font-size:.74rem;margin-top:6px">資料：深圳地鐵官網時刻表（平日），以車站公告為準。</p></div></li>
-  <li><span class="when">22:15</span><div><h3>九巴 B10（回程）</h3><p>皇崗口岸 → 青衣站巴士總站，車費 <span class="big-n">$12.1</span>，約 15 分鐘一班，<b>尾班 00:30</b>。</p></div></li>
  </ul>
 </section>
 
